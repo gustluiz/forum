@@ -12,8 +12,6 @@ public class HelloController {
 	@ResponseBody
 	public String helloWorld() {
 		
-		
-		
 		System.out.println("Passei pelo controller " + counter++);
 		return "Hello World!";
 		
